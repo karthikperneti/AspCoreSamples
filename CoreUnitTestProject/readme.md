@@ -31,7 +31,7 @@ In Arrange, We need to mock the AuthrizationFilterContext.
 
 Act is simple, Initialize the filter and call the onAuthirization metod.
 
- filter = new CwsAuthorizationAttribute(contextAccesor);
+            filter = new CwsAuthorizationAttribute(contextAccesor);
             filter.OnAuthorization(filterContext);
              
  
